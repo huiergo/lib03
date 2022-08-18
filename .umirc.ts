@@ -29,4 +29,17 @@ export default defineConfig({
       // 更多 rule 配置访问 https://github.com/umijs/dumi/blob/1.x/packages/theme-mobile/src/typings/config.d.ts#L7
     },
   },
+  extraBabelPlugins: [
+    [
+      'import',
+      {
+        libraryName: 'lb03-ui',
+        camel2DashComponentName: false,
+        customStyleName: (name) => {
+          return `./style/index.less`; // 注意：这里 ./ 不可省略
+        },
+      },
+      'lb03-ui',
+    ],
+  ],
 });
