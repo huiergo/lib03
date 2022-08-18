@@ -33,13 +33,13 @@ export default defineConfig({
     [
       'import',
       {
-        libraryName: 'lb03-ui',
+        libraryName: 'lib03-ui',
         camel2DashComponentName: false,
         customStyleName: (name) => {
           return `./style/index.less`; // 注意：这里 ./ 不可省略
         },
       },
-      'lb03-ui',
+      'lib03-ui',
     ],
   ],
 });

@@ -1,5 +1,5 @@
 {
-  "name": "lib03",
+  "name": "lib03-ui",
   "version": "1.0.0",
   "scripts": {
     "start": "dumi dev",
