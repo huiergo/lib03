@@ -47,5 +47,18 @@
     "lint-staged": "^10.0.7",
     "prettier": "^2.2.1",
     "yorkie": "^2.0.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "homepage": "https://github.com/huiergo/lib03",
+  "authors": {
+    "name": "huiergo",
+    "email": "1063229610@qq.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huiergo/lib03.git"
   }
 }
