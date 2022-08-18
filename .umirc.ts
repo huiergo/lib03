@@ -8,6 +8,9 @@ export default defineConfig({
   outputPath: 'docs-dist',
   mode: 'site',
   // more config: https://d.umijs.org/config
+  theme: {
+    '@hd': '0.02rem',
+  },
   themeConfig: {
     carrier: 'dumi', // 设备状态栏左侧的文本内容
     hd: {
